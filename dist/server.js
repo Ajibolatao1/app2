@@ -16,6 +16,6 @@ app.get("/users", (req, res) => {
     res.send(users);
 });
 // Start Server
-app.listen(5000, () => {
-    console.log(`Server is running on port ${process.env.PORT}`);
+app.listen(5001, () => {
+    console.log(`Server is running on port ${5001}`);
 });
